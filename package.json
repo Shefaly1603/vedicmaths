@@ -1,12 +1,13 @@
 {
   "scripts": {
+    "dev": "next dev",
     "build": "npx --yes open-next@latest build",
-    "start": "open-next start"
+    "start": "next start"
   },
   "dependencies": {
-    "next": ">13",
-    "react": ">18",
-    "react-dom": ">18"
+    "next": "15.5.2",
+    "react": ">=18",
+    "react-dom": ">=18"
   },
   "devDependencies": {
     "open-next": "^3.1.3"

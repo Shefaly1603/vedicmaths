@@ -1,8 +1,9 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
-  reactCompiler: true,
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  images: {
+    unoptimized: true, // reduces memory use during build (important for Cloudflare)
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
+
