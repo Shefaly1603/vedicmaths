@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "npx --yes open-next@latest build",
+    "build": "next build",
     "start": "open-next start"
   },
   "dependencies": {
