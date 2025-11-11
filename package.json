@@ -1,15 +1,21 @@
 {
+  "name": "vedicmaths",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npx --yes open-next@latest build",
-    "start": "next start"
+    "start": "open-next start",
+    "build": "npx --yes open-next@latest build"
   },
   "dependencies": {
     "next": "15.5.2",
-    "react": ">=18",
-    "react-dom": ">=18"
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "open-next": "^3.1.3"
+    "@types/node": "24.10.0",
+    "@types/react": "19.2.2",
+    "open-next": "^3.1.3",
+    "typescript": "5.9.3"
   }
 }

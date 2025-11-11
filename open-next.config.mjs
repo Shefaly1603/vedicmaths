@@ -1,3 +1,4 @@
 export default {
-  // defaults are fine
+  mode: "cloudflare",
 };
+
