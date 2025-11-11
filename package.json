@@ -1,9 +1,9 @@
 {
   "scripts": {
     "dev": "next dev",
-    "build": "npx --yes open-next@latest build",
-    "preview": "powershell -NoProfile -Command \"if (Test-Path .open-next) { Remove-Item .open-next -Recurse -Force }\" && npx --yes open-next@latest build && wrangler pages dev .open-next --port=8788 --compatibility-date=2025-11-11 --compatibility-flags=nodejs_compat",
-    "deploy": "npx --yes open-next@latest build && wrangler pages deploy .open-next --project-name vedicmaths --branch=production --compatibility-date=2025-11-11 --compatibility-flags=nodejs_compat"
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "15.5.2",
@@ -11,8 +11,11 @@
     "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@types/node": "24.10.0",
+    "@types/node": "20.10.0",
     "@types/react": "19.2.2",
     "typescript": "5.9.3"
-  }
+  },
+  "engines": { "node": "20.x" }
 }
+
+
