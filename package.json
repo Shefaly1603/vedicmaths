@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "start": "open-next start",
-    "build": "npx --yes open-next@latest build"
+    "build": "next build",             // <-- change to this
+    "start": "open-next start"
   },
   "dependencies": {
     "next": "15.5.2",
@@ -19,3 +19,4 @@
     "typescript": "5.9.3"
   }
 }
+
